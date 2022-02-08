@@ -16,6 +16,11 @@
 	height: 40px;
 }
 
+.big-ctn {
+	margin: 0 auto;
+	width: 600px;
+}
+
 .button-div {
 	display: flex;
 	margin-bottom: 5px;
@@ -82,16 +87,36 @@
 	padding-left: 10px;
 }
 
-.second-p {
+/* .second-p {
 	font-size: 40px;
 	justify-content: center;
 	text-transform:capitalize;
 	font-style: italic;
 	width: 600px;
-	margin-left: 400px;
 	font-weight: 700;
 	padding-top: 100px;
 	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+
+.second-p {
+	width: fit-content;
+	margin: 70px auto 20px auto;
+}
+
+.second-p h1 {
+  font-size: 40px;
+	text-transform: capitalize;
+	font-style: italic;
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	width: 600px;
+}
+
+.landing-page {
+	width: fit-content;
+	margin: 0 auto;
 }
 
 .imgs {
@@ -102,13 +127,12 @@
 img {
 	height: 100vh;
 	justify-content: center;
-	margin-left: 200px;
 	margin-top: 35px;
+	border: 2px solid black;
 }
 
 .lorem30 {
   width: 850px;
-	margin-left: 200px;
 	margin-top: 5px;
 }
 
@@ -122,7 +146,6 @@ img {
 	display: flex;
 	flex-direction: column;
 	width: 610px;
-	margin-left: 380px;
 	font-size: 20px;
 	line-height: 30px;
 	margin-top: 25px;
@@ -185,12 +208,11 @@ img {
 	/* border: 2px solid black; */
 	width: 210px;
 	position: absolute;
-	margin-left: 1050px;
 	font-size: 13px;
 	top: 1870px;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: 200;
-
+	right: 5%;
 }
 
 .editors-pick img {
@@ -201,7 +223,20 @@ img {
 .editors-ctn {
 	width: 110px;
 	position: absolute;
-	margin-left: 95px;
+}
+
+.image-in-tittle {
+	display: flex;
+	align-items: center;
+}
+
+.image-in-tittle a {
+	width: 150px;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 20px 7px;
+	line-height: 20px;
+	color: black;
 }
 
 .editors-ctn-1,
@@ -209,6 +244,7 @@ img {
 .editors-ctn-3 {
 	margin-top: 18px;
 	line-height: 18px;
+	float: left;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -251,13 +287,14 @@ body {
 }
 
 .text9 {
-	text-align: center;
 	margin-top: 10px;
-	width: 300px;
-	margin-left: 530px;
+	width: 600px;
 	font-size: 15px;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	line-height: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .text8 a {
@@ -266,7 +303,6 @@ body {
 
 .hr {
 	width: 100px;
-	margin-left: 100px;
 }
 
 .text9 a {
