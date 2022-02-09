@@ -87,20 +87,6 @@
 	padding-left: 10px;
 }
 
-/* .second-p {
-	font-size: 40px;
-	justify-content: center;
-	text-transform:capitalize;
-	font-style: italic;
-	width: 600px;
-	font-weight: 700;
-	padding-top: 100px;
-	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  display: flex;
-	flex-direction: column;
-	align-items: center;
-} */
-
 .second-p {
 	width: fit-content;
 	margin: 70px auto 20px auto;
@@ -206,13 +192,14 @@ img {
 .editors-pick {
 	height: 340px;
 	/* border: 2px solid black; */
-	width: 210px;
+	width: 230px;
 	position: absolute;
 	font-size: 13px;
 	top: 1870px;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: 200;
 	right: 5%;
+	color: #000000;
 }
 
 .editors-pick img {
@@ -220,9 +207,9 @@ img {
 	height: 75px;
 }
 
-.editors-ctn {
-	width: 110px;
-	position: absolute;
+.image-ctn a {
+	color: #524E4E;
+	font-family:  nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .image-in-tittle {
@@ -239,43 +226,15 @@ img {
 	color: black;
 }
 
-.editors-ctn-1,
-.editors-ctn-2,
-.editors-ctn-3 {
-	margin-top: 18px;
-	line-height: 18px;
-	float: left;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-.editors-ctn-2 {
-	width: 130px;
-	margin-top: 40px;
-}
-
-.editors-ctn-3 {
-	margin-top: 40px;
-}
-
 .image-ctn {
 	position: absolute;
-  width: 300px;
+  width: 210px;
 	margin-left: 10px;
 }
 
 .image-ctn img {
-	padding: 0;
 	margin: 0;
-  margin-top: 20px;
-}
-
-.editors-ctn a {
-	text-decoration: none;
-	color: rgb(109, 108, 108);
-}
-
-.strong {
-	padding-bottom: 5px;
+	border: none;
 }
 
 body {
@@ -318,11 +277,6 @@ body {
 
 .ctn-inflation {
 	height: 600px;
-	/* border: 1px solid orange; */
-}
-
-.text-continue div {
-	/* border: 1px solid rgb(2, 2, 36); */
 }
 
 .you-tube {
@@ -331,15 +285,21 @@ body {
 
 .yt-bottom-parag,
 .teleskop-bottom-parag {
-	margin-left: 380px;
-	width: 600px;
+	width: fit-content;
+	margin: 0 auto;
 	margin-top: 10px;
-	margin-bottom: 20px;
+}
+
+.yt-bottom {
+	cursor: auto;
+	text-decoration: none;
+	color: #7C7575;
 }
 
 .cosmos-teleskop {
 	height: 370px;
-	margin-top: 18px;
+	margin: 18px 0 16px 0;
+	border: none;
 }
 
 .steffen  {
@@ -352,11 +312,11 @@ body {
 	line-height: 15px;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	width: 560px;
-	color: #8F3333;
+	color: black;
 }
 
 .text58 a {
-	color: #8F3333;
+	color: black;
 }
 
 .text59 {
@@ -386,7 +346,7 @@ body {
 
 .ctn-end {
 	height: 155vh;
-	width: 90%;
+	width: 89%;
 	margin: 20px auto;
 }
 
@@ -408,6 +368,8 @@ body {
 	font-weight: 900;
 }
 
+
+
 .cow,
 .observatory,
 .orbital,
@@ -421,6 +383,7 @@ body {
   height: 181px;
 	margin: 0;
 	padding: 0;
+	border: none;
 }
 
 .little {
@@ -464,9 +427,10 @@ body {
 .the-end {
   /* border: 1px solid darkred; */
 	height: 58vh;
-	width: 87%;
+	width: 85%;
 	margin: 5px auto;
 }
+
 
 .head-div {
 	display: flex;
@@ -499,6 +463,10 @@ body {
 .footer-div {
 	display: flex;
 	flex-direction: column;
+	color: #333333;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-weight: 700;
+	
 }
 
 .body-div {
@@ -506,7 +474,7 @@ body {
 	justify-content: space-between;
 	line-height: 22px;
 	margin: 40px 18px 0 18px;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .body-div a {
